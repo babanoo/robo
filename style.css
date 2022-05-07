@@ -59,6 +59,27 @@ p {
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+
+
+
+}
+
+.title2 {
+    position: absolute;
+    height: 84px;
+    width: 281px;
+    left: 100px;
+    top: 276px;
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
 
 
 
@@ -79,22 +100,101 @@ p {
     text-align: left;
     color: #FFFFFF;
 
+}
+
+ul {
+    list-style: none;
+    color: #FFFFFF;
+    font-family: Poppins;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.nav1 {
+    position: absolute;
+    height: 21px;
+    width: 43px;
+    left: 768px;
+    top: 37px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
 
-.title2 {
+.nav2 {
     position: absolute;
-    height: 84px;
-    width: 281px;
-    left: 100px;
-    top: 276px;
-    font-family: Poppins;
-    font-size: 56px;
-    font-weight: 600;
-    line-height: 84px;
+    height: 21px;
+    width: 52px;
+    left: 841px;
+    top: 37px;
+    font-weight: 500;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF;
 
+}
 
+.nav3 {
+    position: absolute;
+    height: 52px;
+    width: 43px;
+    left: 924px;
+    top: 37px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.nav4 {
+    position: absolute;
+    height: 21px;
+    width: 78px;
+    left: 1007px;
+    top: 37px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.nav5 {
+    position: absolute;
+    height: 21px;
+    width: 65px;
+    left: 1115px;
+    top: 37px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.nav6 {
+    position: absolute;
+    height: 21px;
+    width: 37px;
+    left: 120px;
+    top: 37px;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.my-icon {
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    left: 100px;
+    top: 39px;
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+
+.my-img {
+    position: absolute;
+    height: 13.59px;
+    width: 8.41px;
+    left: 101.29px;
+    top: 42.24px;
+    background: #FFFFFF;
+    border-radius: 30px;
 }
