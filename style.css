@@ -1,200 +1,84 @@
-.robo {
-    position: relative;
-    height: 720px;
-    width: 1280px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
     background: linear-gradient(0deg, #4C1198 -14.17%, #3426AE 95.5%, #173EC8 119.1%);
-}
-
-.two {
-    background: linear-gradient(90deg, #C436B9 -9.67%, #1FC4E0 113%);
-    position: absolute;
-    height: 48px;
-    width: 150px;
-    left: 100px;
-    top: 503px;
-    border-radius: 50px;
-}
-
-button {
-    position: absolute;
-    height: 27px;
-    width: 104px;
-    left: 123px;
-    top: 513px;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
     color: #FFFFFF;
-    text-align: center;
 
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-right: 9rem;
 
 
 
 
 }
 
-.three {
-    position: absolute;
-    height: 510px;
-    width: 463px;
-    left: 717px;
-    top: 138px;
-    border-radius: 0px;
+li {
 
+    margin-top: -24px;
+
+}
+
+ul,
+.logo-name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.logo-name {
+    margin-left: 120px;
+}
+
+.buttn {
+    font-size: 18px;
+    background: linear-gradient(90deg, #C436B9 -9.67%, #1FC4E0 113%);
+    border-radius: 50px;
+    padding: 10px 23px 11px 23px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    margin-top: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.main-right {
+    margin-top: 80px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 56px;
 }
 
 p {
-    position: absolute;
-    height: 101px;
-    width: 299px;
-    left: 101px;
-    top: 362px;
-    font-family: Poppins;
-    font-size: 12px;
     font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-    margin-top: 30px;
-    margin-bottom: 40px;
-
-
-
-
+    font-size: 12px;
 }
 
-.title2 {
-    position: absolute;
-    height: 84px;
-    width: 281px;
-    left: 100px;
-    top: 276px;
-    font-family: Poppins;
-    font-size: 56px;
-    font-weight: 600;
-    line-height: 84px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
 
 
+.logo-img {
+    
 
 
-}
-
-.title1 {
-    position: absolute;
-    height: 84px;
-    width: 447px;
-    left: 100px;
-    top: 203px;
-    font-family: Poppins;
-    font-size: 56px;
-    font-weight: 600;
-    line-height: 84px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-
-}
-
-ul {
-    list-style: none;
-    color: #FFFFFF;
-    font-family: Poppins;
-    line-height: 21px;
-    font-size: 14px;
-}
-
-.nav1 {
-    position: absolute;
-    height: 21px;
-    width: 43px;
-    left: 768px;
-    top: 37px;
-    font-weight: 600;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-
-.nav2 {
-    position: absolute;
-    height: 21px;
-    width: 52px;
-    left: 841px;
-    top: 37px;
-    font-weight: 500;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-
-.nav3 {
-    position: absolute;
-    height: 52px;
-    width: 43px;
-    left: 924px;
-    top: 37px;
-    font-weight: 500;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-
-.nav4 {
-    position: absolute;
-    height: 21px;
-    width: 78px;
-    left: 1007px;
-    top: 37px;
-    font-weight: 500;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.nav5 {
-    position: absolute;
-    height: 21px;
-    width: 65px;
-    left: 1115px;
-    top: 37px;
-    font-weight: 500;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.nav6 {
-    position: absolute;
-    height: 21px;
-    width: 37px;
-    left: 120px;
-    top: 37px;
-    font-weight: 600;
-    font-style: normal;
-
-}
-
-.my-icon {
-    position: absolute;
-    height: 11px;
-    width: 11px;
-    left: 100px;
-    top: 39px;
-    background: #FFFFFF;
-    border-radius: 40px;
-}
-
-.my-img {
-    position: absolute;
-    height: 13.59px;
-    width: 8.41px;
-    left: 101.29px;
-    top: 42.24px;
-    background: #FFFFFF;
-    border-radius: 30px;
 }
