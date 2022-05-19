@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(0deg, #4C1198 -14.17%, #3426AE 95.5%, #173EC8 119.1%);
+    background-image: linear-gradient(100deg, #4C1198 -14.17%, #3426AE 95.5%, #173ec8 119.1%);
     color: #FFFFFF;
 
 
@@ -18,6 +18,7 @@ nav ul {
     align-items: flex-start;
     gap: 2rem;
     margin-right: 9rem;
+    margin-top: 2px;
 
 
 
@@ -40,6 +41,7 @@ ul,
 
 .logo-name {
     margin-left: 120px;
+    margin-top: -20px;
 }
 
 .buttn {
@@ -66,8 +68,9 @@ section {
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 56px;
+    
 }
 
 p {
@@ -78,7 +81,7 @@ p {
 
 
 .logo-img {
+    margin-top: 37px;
+    margin-left: 80px;
     
-
-
 }
